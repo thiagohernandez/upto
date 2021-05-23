@@ -107,6 +107,22 @@
 	background-color: $gray-09;
   }
   
+ .bg-blue-light {
+  background-color: #ecf2ff;
+  position: relative;
+  &:before {
+    background-image: url('../img/assets/bg-testimonials.png');
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -1px;
+    transform: translateX(-50%);
+    content: '';
+    width: 137px;
+    height: 115px;
+    z-index: 1;
+  }
+ }
 
 .section-primary {
 	background-color: $primary-color;

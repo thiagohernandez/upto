@@ -1,9 +1,9 @@
 
 
 // FONTES
-$font-stack: 'Nexa', sans-serif;
-$font-heading: 'Nexa', sans-serif;
-$font-alternate: 'Nexa', sans-serif;
+$font-stack: 'Poppins', sans-serif;
+$font-heading: 'Poppins', sans-serif;
+$font-alternate: 'Poppins', sans-serif;
 
 // Pesos
 $font-weight-light: 300;
@@ -15,19 +15,6 @@ $font-weight-bold: 700;
 // Color system
 //
 
-$brand-blue-primary: rgba(30,15,72,1);
-$brand-blue-secondary: rgba(0,182,239,1);
-$brand-blue-tertiary: rgba(1,73,157,1);
-$brand-blue-00: rgba(198,235,253,1);
-$brand-blue-01: rgba(0,182,239,1);
-$brand-blue-02: rgba(0,134,207,1);
-$brand-blue-03: rgba(1,73,157,1);
-$brand-blue-04: rgba(37,53,141,1);
-$brand-blue-05: rgba(40,30,101,1);
-$brand-blue-06: rgba(30,15,72,1);
-$brand-blue-07: rgba(19,0,45,1);
-$brand-blue-dark: rgba(19,0,45,1);
-
 $alert-warning: rgba(254,198,1,1);
 $alert-danger: rgba(175,62,77,1);
 $alert-success: rgba(88,188,130,1);
@@ -36,9 +23,9 @@ $accent--light: rgba(164,36,195,1);
 $accent--dark: rgba(54,8,83,1);
 
 
-$primary-color:  $brand-blue-primary;
-$secondary-color: $brand-blue-secondary;
-$tertiary-color: $brand-blue-tertiary;
+$primary-color:  #2020df;
+$secondary-color: #7cbaea;
+$tertiary-color: #5271ff;
 
 $green: $alert-success;
 $secondary-green: rgba(96, 129, 49, 1);
@@ -63,9 +50,10 @@ $gray-07: rgba(111,133,157,1);
 $gray-08: rgba(101,110,124,1);
 $gray-09: rgba(81,88,99,1);
 $gray-10: rgba(61,66,74,1);
-$gray-11: rgba(30,33,37,1);
+$gray-11: #30323a;
 
 $dark-gray: $gray-11;
+$gray: #8c8c98;
 
 
 @mixin effect-style-dropshadow-input {
@@ -89,7 +77,6 @@ $danger: $color-alert-red;
 $light: $gray-01;
 $dark: $dark-gray;
 
-$gray: $gray-09;
 $light-gray: $gray-04;
 
 $gray-100: $gray-01;

@@ -2,11 +2,11 @@
  <p>Prueba técnica para el estúdio <a href="https://displaynone.es/">Display None</a></p>
  <p>He hecho un deploy en netlify, así que puedes ver el proyecto en <a href="https://upto.netlify.app" target="_blank">upto.netlify.app</a>.</p>
  <h1>Compilar estilos</h1>
- <p>Los estilos del archivo <strong>theme.min.css</strong> fueron creados en SASS y para compilarlos hay que ir en la carpeta e ejecutar en el terminal: <code>sass --watch theme.scss:../css/theme.min.css --style compressed</code></p>
+ <p>Los estilos del archivo <strong>theme.min.css</strong> fueron creados en SASS y para compilarlos hay que ir en la carpeta e ejecutar en el terminal: <code>sass --watch theme.scss:../theme.min.css --style compressed</code></p>
  <h1>Tasks (To do)</h1>
  <p>Como todo en la vida siempre podemos mejorar, imagina un html hecho en un par de horas, así que si fuera un proyecot real pasaría lo mismo. Aquí una lista de cosas que podríamos hacer para mejorarla:</p>
  <ul>
-    <li style="text-decoration: line-through;">[X]Errores de ortografia</li>
+    <li>[x] Errores de ortografia</li>
     <li>[ ] Logotipo en versión retina o svg</li>
     <li>[ ] Poner solo el grid del Bootstrap y comprimir junto el theme.min.css</li>
     <li>[ ] En el boceto utiliza en algunas partes la fuente "Ubuntu", pero en algunos puntos en concreto solamente, así que no parece una decisión de diseño. Ahora mismo no la pongo en el HTML para no cargar una fuente más.</li>
