@@ -12,6 +12,7 @@
     <li>[ ] Poner solo el grid del Bootstrap y comprimir junto el theme.min.css</li>
     <li>[ ] En el boceto utiliza la fuente "Ubuntu", pero solamente en algunos puntos en concreto, así que no parece una decisión de diseño. Ahora mismo no la pongo en el HTML para no cargar una fuente más. En un proyecto real hablaría con el diseñador para comprobar si es una decisón de diseño o algo paso mal al poner las fuentes. </li>
     <li>[ ] Probar si hay mejoras con la fuente en el servidor y no utilizar el Google fonts como está ahora.</li>
+    <li>[ ] Agregar Open Graph meta tags.</li>
  </ul>
  <h1>Sobre mí</h1>
  <p>Un poco más de los proyectos que estuve involucrado está en <a href="https://www.behance.net/thiagohernandez" target="_blank">https://www.behance.net/thiagohernandez</a></p>
